@@ -22,15 +22,15 @@ public class maior {
 
      if(valor1 > valor2 & valor1 > valor3){
 
-        System.out.println(valor1);
+        System.out.println("maior valor: " + valor1);
 
      } else if (valor2 > valor1 & valor2 > valor3){
 
-        System.out.println(valor2);
+        System.out.println("maior valor: " + valor2);
 
         } else if (valor3 > valor2 & valor3 > valor1){
 
-        System.out.println(valor3);
+        System.out.println("maior valor: " + valor3);
         }
     }
 }
