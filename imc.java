@@ -18,6 +18,8 @@ public class imc {
   System.out.println("informe a sua altura:");
   altura = entrada.nextDouble();
 
+  entrada.close();
+
  imc = peso/(altura * altura);
 
   System.out.println("Seu Imc é");
