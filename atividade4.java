@@ -23,9 +23,8 @@ public class atividade4 {
             System.out.println("Maior numero foi:");   
             System.out.println(maior);
 
-            System.out.println("");
-            
-    
+            entrada.close();
+
             
         }
 
